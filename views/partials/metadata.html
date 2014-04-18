@@ -1,0 +1,51 @@
+<!-- Begin meta tags -->
+<title>
+	{{ if page:is_home }}
+    	{{ settings:site_name }}
+    {{else}}
+    	{{ template:title }} - {{ settings:site_name }}
+	{{endif}}
+</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="Vela Media LTD" />
+<meta name="copyright" content="Vela Media LTD" />
+
+<!-- Mobile Specific Metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<!-- /Mobile Specific Metas -->
+
+<!-- favicon -->
+{{ theme:favicon file="favicon.ico" }}
+
+<!--styles-->
+{{ theme:css file="base.css" }}
+{{ theme:css file="styles/{{theme:options:color}}.css" }}
+{{ if theme:options:style == 'boxed' }}
+      {{ theme:css file="boxed.css" }}         
+{{endif}}
+{{ theme:css file="homepage_portfolio.css" }}
+
+<!--scripts-->
+
+{{ theme:js file="selectnav.min.js" }}
+{{ theme:js file="jquery-1.8.3.min.js" }}
+{{ theme:js file="bootstrap.js" }}
+{{ theme:js file="jquery.easing.1.3.js" }}
+{{ theme:js file="jquery.prettyPhoto.js" }}
+{{ theme:js file="jquery.carouFredSel-6.1.0-packed.js" }}
+{{ theme:js file="jquery.quicksand.js" }}
+{{ theme:js file="jquery.touchSwipe.min.js" }}
+{{ theme:js file="custom.js" }}
+{{ theme:js file="jquery.masonry.min.js" }}
+
+<!--[if IE 9]>
+        {{ theme:css file="ie9.css" }}
+<![endif]-->
+<!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>.
+        {{ theme:css file="ie8.css" }}
+<![endif]-->
+
+
+<!-- meta from modules and pages -->
+{{ template:metadata }}

@@ -1,0 +1,240 @@
+/* --------------Font faces --------------- */
+@font-face {
+    font-family: 'OpenSansLight';
+    src: url('font/OpenSans-Light-webfont.eot');
+    src: url('font/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/OpenSans-Light-webfont.woff') format('woff'),
+         url('font/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('font/OpenSans-Light-webfont.svg#font/OpenSansLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansLightItalic';
+    src: url('font/OpenSans-LightItalic-webfont.eot');
+    src: url('font/OpenSans-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/OpenSans-LightItalic-webfont.woff') format('woff'),
+         url('font/OpenSans-LightItalic-webfont.ttf') format('truetype'),
+         url('font/OpenSans-LightItalic-webfont.svg#font/OpenSansLightItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('font/OpenSans-Regular-webfont.eot');
+    src: url('font/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/OpenSans-Regular-webfont.woff') format('woff'),
+         url('font/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('font/OpenSans-Regular-webfont.svg#font/OpenSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansItalic';
+    src: url('font/OpenSans-Italic-webfont.eot');
+    src: url('font/OpenSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/OpenSans-Italic-webfont.woff') format('woff'),
+         url('font/OpenSans-Italic-webfont.ttf') format('truetype'),
+         url('font/OpenSans-Italic-webfont.svg#font/OpenSansItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansSemibold';
+    src: url('font/OpenSans-Semibold-webfont.eot');
+    src: url('font/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/OpenSans-Semibold-webfont.woff') format('woff'),
+         url('font/OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('font/OpenSans-Semibold-webfont.svg#font/OpenSansSemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansSemiboldItalic';
+    src: url('font/OpenSans-SemiboldItalic-webfont.eot');
+    src: url('font/OpenSans-SemiboldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/OpenSans-SemiboldItalic-webfont.woff') format('woff'),
+         url('font/OpenSans-SemiboldItalic-webfont.ttf') format('truetype'),
+         url('font/OpenSans-SemiboldItalic-webfont.svg#font/OpenSansSemiboldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('font/OpenSans-Bold-webfont.eot');
+    src: url('font/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/OpenSans-Bold-webfont.woff') format('woff'),
+         url('font/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('font/OpenSans-Bold-webfont.svg#font/OpenSansBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansBoldItalic';
+    src: url('font/OpenSans-BoldItalic-webfont.eot');
+    src: url('font/OpenSans-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/OpenSans-BoldItalic-webfont.woff') format('woff'),
+         url('font/OpenSans-BoldItalic-webfont.ttf') format('truetype'),
+         url('font/OpenSans-BoldItalic-webfont.svg#font/OpenSansBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansExtrabold';
+    src: url('font/OpenSans-ExtraBold-webfont.eot');
+    src: url('font/OpenSans-ExtraBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/OpenSans-ExtraBold-webfont.woff') format('woff'),
+         url('font/OpenSans-ExtraBold-webfont.ttf') format('truetype'),
+         url('font/OpenSans-ExtraBold-webfont.svg#font/OpenSansExtrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansExtraboldItalic';
+    src: url('font/OpenSans-ExtraBoldItalic-webfont.eot');
+    src: url('font/OpenSans-ExtraBoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/OpenSans-ExtraBoldItalic-webfont.woff') format('woff'),
+         url('font/OpenSans-ExtraBoldItalic-webfont.ttf') format('truetype'),
+         url('font/OpenSans-ExtraBoldItalic-webfont.svg#font/OpenSansExtraboldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LatoBlackItalic';
+    src: url('font/Lato-BlaIta-webfont.eot');
+    src: url('font/Lato-BlaIta-webfont.eot?#iefix') format('embedded-opentype'),
+        url('font/Lato-BlaIta-webfont.woff') format('woff'),
+        url('font/Lato-BlaIta-webfont.ttf') format('truetype'),
+        url('font/Lato-BlaIta-webfont.svg#LatoBlackItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LatoBlack';
+    src: url('font/Lato-Bla-webfont.eot');
+    src: url('font/Lato-Bla-webfont.eot?#iefix') format('embedded-opentype'),
+        url('font/Lato-Bla-webfont.woff') format('woff'),
+        url('font/Lato-Bla-webfont.ttf') format('truetype'),
+        url('font/Lato-Bla-webfont.svg#LatoBlack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LatoBoldItalic';
+    src: url('font/Lato-BolIta-webfont.eot');
+    src: url('font/Lato-BolIta-webfont.eot?#iefix') format('embedded-opentype'),
+        url('font/Lato-BolIta-webfont.woff') format('woff'),
+        url('font/Lato-BolIta-webfont.ttf') format('truetype'),
+        url('font/Lato-BolIta-webfont.svg#LatoBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LatoBold';
+    src: url('font/Lato-Bol-webfont.eot');
+    src: url('font/Lato-Bol-webfont.eot?#iefix') format('embedded-opentype'),
+        url('font/Lato-Bol-webfont.woff') format('woff'),
+        url('font/Lato-Bol-webfont.ttf') format('truetype'),
+        url('font/Lato-Bol-webfont.svg#LatoBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LatoItalic';
+    src: url('font/Lato-RegIta-webfont.eot');
+    src: url('font/Lato-RegIta-webfont.eot?#iefix') format('embedded-opentype'),
+        url('font/Lato-RegIta-webfont.woff') format('woff'),
+        url('font/Lato-RegIta-webfont.ttf') format('truetype'),
+        url('font/Lato-RegIta-webfont.svg#LatoItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LatoRegular';
+    src: url('font/Lato-Reg-webfont.eot');
+    src: url('font/Lato-Reg-webfont.eot?#iefix') format('embedded-opentype'),
+        url('font/Lato-Reg-webfont.woff') format('woff'),
+        url('font/Lato-Reg-webfont.ttf') format('truetype'),
+        url('font/Lato-Reg-webfont.svg#LatoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LatoLightItalic';
+    src: url('font/Lato-LigIta-webfont.eot');
+    src: url('font/Lato-LigIta-webfont.eot?#iefix') format('embedded-opentype'),
+        url('font/Lato-LigIta-webfont.woff') format('woff'),
+        url('font/Lato-LigIta-webfont.ttf') format('truetype'),
+        url('font/Lato-LigIta-webfont.svg#LatoLightItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LatoLight';
+    src: url('font/Lato-Lig-webfont.eot');
+    src: url('font/Lato-Lig-webfont.eot?#iefix') format('embedded-opentype'),
+        url('font/Lato-Lig-webfont.woff') format('woff'),
+        url('font/Lato-Lig-webfont.ttf') format('truetype'),
+        url('font/Lato-Lig-webfont.svg#LatoLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LatoHairlineItalic';
+    src: url('font/Lato-HaiIta-webfont.eot');
+    src: url('font/Lato-HaiIta-webfont.eot?#iefix') format('embedded-opentype'),
+        url('font/Lato-HaiIta-webfont.woff') format('woff'),
+        url('font/Lato-HaiIta-webfont.ttf') format('truetype'),
+        url('font/Lato-HaiIta-webfont.svg#LatoHairlineItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LatoHairline';
+    src: url('font/Lato-Hai-webfont.eot');
+    src: url('font/Lato-Hai-webfont.eot?#iefix') format('embedded-opentype'),
+        url('font/Lato-Hai-webfont.woff') format('woff'),
+        url('font/Lato-Hai-webfont.ttf') format('truetype'),
+        url('font/Lato-Hai-webfont.svg#LatoHairline') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

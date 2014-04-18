@@ -1,0 +1,174 @@
+.bg-color{
+    background:#F66F34;
+}
+.text-color{
+    color:#F66F34;
+}
+h1.underline span,h2.underline span,h3.underline span,h4.underline span,h5.underline span,h6.underline span{
+    border-bottom:3px solid #F66F34;
+}
+h5 .underbar{
+    border-bottom:3px solid #F66F34;
+}
+a:hover{text-decoration:none;color: #F66F34;}
+#nav li ul{
+    border-bottom:2px solid #F66F34;  
+}
+#nav li ul li ul {
+    border-left: 1px solid #F66F34;
+    border-right:1px solid #F66F34;
+}
+.camera_bar_cont span{
+    background-color: #F66F34 !important;
+}
+.slider-caption .dark:hover{
+    background-color: #F66F34;
+}
+.multibox .titles .back-bar{
+    background-color: #F66F34;   
+}
+#multibox-staff .position span{
+    border-top:1px solid #F66F34;
+    border-bottom:1px solid #F66F34;
+}
+
+.iconbox:hover .arrow_box{
+    background-color: #F66F34;
+}
+.iconbox .arrow_box{
+    border-top:3px solid #F66F34;
+}
+.arrow_box {
+	background: #F66F34;
+}
+
+.iconbox:hover .arrow_box:after {
+	border-bottom-color: #F66F34;
+}
+.blog-hover .details span{
+    border-bottom:1px solid #F66F34;
+
+}
+.blog-hover .details b{
+    color:#F66F34;
+}
+.portfolio-des{
+    background-color: #F66F34; 
+}
+.blog-box .date,.blog-meta-2 .date{
+    background-color:#F66F34;  
+}
+#bottom{
+    border-top: 3px solid #F66F34;
+}
+#bottom a:hover{
+    color:#F66F34;
+}
+.btn:hover,.btn-large:hover,.btn-mini:hover{
+    background: #F66F34;
+}
+.color{
+    color:#F66F34;
+}
+a.button:hover{
+    background-color: #F66F34;
+}
+#footer > a.botton{background-color: #F66F34;}
+.border-bott{
+    border-bottom: 2px solid #F66F34;
+}
+.light:hover{background-color:#F66F34;}
+.dark{background-color:#F66F34;}
+.blog-meta .date,.blog-meta .comments{
+    background-color: #F66F34;
+}
+a.reply{color: #F66F34;}
+.blog_categories li:hover,.widget.tags li:hover{background-color: #F66F34;color:#fff !important;}
+.widget.newsletter input[type="email"]:focus{
+     border: 1px solid #F66F34;
+}
+.slider-caption .read-more{
+    border-right:1px solid #353535;
+}
+
+
+
+.camera_prev span:hover{
+  
+     background-color: #F66F34;
+}
+.camera_next span:hover{
+  
+     background-color: #F66F34;
+}
+
+
+.widget.newsletter input[type="submit"] {
+    background-color: #F66F34;
+}
+
+.multibox .titles .back-bar{
+    background-color: #F66F34;
+}
+.staff-box .position span{
+    border-top:1px solid #F66F34;
+    border-bottom:1px solid #F66F34;    
+}
+.overlay{
+    background-color: #F66F34;
+}
+#filtercats li.active{
+    background-color: #F66F34;
+}
+.blog-meta-2 .type{
+   background-color: #F66F34 !important;
+}
+.btn:hover,.btn-large:hover,.btn-mini:hover{
+    background: #F66F34;
+}
+.btn.btn-color{
+    background:#F66F34;
+}
+a.button:hover{
+    background-color: #F66F34;
+}
+.nav-tabs{
+    border-bottom: 2px solid #F66F34;
+}
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover {
+     background:#F66F34;
+     border-top:2px solid #F66F34;
+}
+.pagination ul > .active > a, .pagination ul > .active > span {
+    background:#F66F34; 
+}
+.accordion-heading:hover{
+    background:#F66F34;
+}
+.progress .bar {
+    background-color: #F66F34;
+}
+.progress-striped .bar {
+    background-color:  #F66F34;
+}
+::selection{
+    background: #F66F34;
+}
+.drop-cap.color{
+    background: #F66F34;
+}
+blockquote.color{
+    border-left: 5px solid #F66F34;
+}
+blockquote.pull-right.color{
+    border-right: 5px solid #F66F34;
+}
+.color-icons i{
+    color:#F66F34;
+}
+.highlight{
+    background-color: #F66F34;
+}
+input[type="submit"]:hover{
+      background-color: #F66F34;  
+}

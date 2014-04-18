@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        {{ theme:partial name='metadata' }}
+
+    </head>
+
+    <body>
+        {{ if theme:options:style == 'boxed' }}
+              <div class="main-box">          
+        {{endif}}
+        {{ integration:analytics }}
+        <!--   HEADER  --> 
+        {{ theme:partial name="header" }}
+        <!--   /HEADER  -->
+
+        <!--  MAIN SECTION -->
+        <section id="wrap">
+            <div id="main-container" class="container {{ if theme:options:style == 'boxed' }}box-pad{{endif}}">
+                <!-- slider -->
+                {{ if { url:segments segment="1" } == '' OR  { url:segments segment="1" } == 'home' }}
+                        {{ widgets:area slug="slider" }}
+                {{ endif }}
+                <!-- /slider -->
+                
+                    {{ theme:partial name="breadcrumbs" }}
+                    {{ session:messages success="alert alert-success" notice="alert" error="alert alert-error" }}
+                    
+                    <div class="row-fluid">
+                        <!-- sidebar -->
+                        <div class="span3" id="sidebar">
+                            {{ widgets:area slug="sidebar" }}
+                        </div>
+                        <!-- /sidebar -->
+
+                        <div class="span9">
+                            {{ template:body }}
+                        </div>
+                    </div>
+
+            </div>
+        </section> 
+        <!-- / MAIN SECTION -->
+        
+        
+
+        {{ theme:partial name="footer" }}
+        
+        {{ if theme:options:style == 'boxed' }}
+        </div>          
+        {{endif}}
+    </body>
+</html>

@@ -1,0 +1,175 @@
+
+/*.bg-color{
+    background:#2cb9b4;
+}*/
+.text-color{
+    color:#2cb9b4;
+}
+h1.underline span,h2.underline span,h3.underline span,h4.underline span,h5.underline span,h6.underline span{
+    border-bottom:3px solid #2cb9b4;
+}
+h5 .underbar{
+    border-bottom:3px solid #2cb9b4;
+}
+a:hover{text-decoration:none;color: #2cb9b4;}
+#nav li ul{
+    /*border-bottom:2px solid #2cb9b4; */ 
+}
+#nav li ul li ul {
+    border-left: 1px solid #2cb9b4;
+    border-right:1px solid #2cb9b4;
+}
+.camera_bar_cont span{
+    background-color: #2cb9b4 !important;
+}
+.slider-caption .dark:hover{
+    background-color: #2cb9b4;
+}
+.multibox .titles .back-bar{
+    background-color: #2cb9b4;   
+}
+#multibox-staff .position span{
+    border-top:1px solid #2cb9b4;
+    border-bottom:1px solid #2cb9b4;
+}
+
+.iconbox:hover .arrow_box{
+    background-color: #2cb9b4;
+}
+.iconbox .arrow_box{
+    border-top:3px solid #2cb9b4;
+}
+.arrow_box {
+	background: #2cb9b4;
+}
+
+.iconbox:hover .arrow_box:after {
+	border-bottom-color: #2cb9b4;
+}
+.blog-hover .details span{
+    border-bottom:1px solid #2cb9b4;
+
+}
+.blog-hover .details b{
+    color:#2cb9b4;
+}
+.portfolio-des{
+    background-color: #2cb9b4; 
+}
+.blog-box .date,.blog-meta-2 .date{
+    background-color:#2cb9b4;  
+}
+#bottom{
+    border-top: 3px solid #ec6248;
+}
+#bottom a:hover{
+    color:#ec6248;
+}
+.btn:hover,.btn-large:hover,.btn-mini:hover{
+    background: #2cb9b4;
+}
+.color{
+    color:#2cb9b4;
+}
+a.button:hover{
+    background-color: #2cb9b4;
+}
+#footer > a.botton{background-color: #2cb9b4;}
+/*.border-bott{
+    border-bottom: 2px solid #2cb9b4;
+}*/
+.light:hover{background-color:#2cb9b4;}
+.dark{background-color:#ec6248;}
+.blog-meta .date,.blog-meta .comments{
+    background-color: #2cb9b4;
+}
+a.reply{color: #2cb9b4;}
+.blog_categories li:hover,.widget.tags li:hover{background-color: #2cb9b4;color:#fff !important;}
+.widget.newsletter input[type="email"]:focus{
+     border: 1px solid #2cb9b4;
+}
+.slider-caption .read-more{
+    border-right:1px solid #353535;
+}
+
+
+
+.camera_prev span:hover{
+  
+     background-color: #2cb9b4;
+}
+.camera_next span:hover{
+  
+     background-color: #2cb9b4;
+}
+
+
+.widget.newsletter input[type="submit"] {
+    background-color: #2cb9b4;
+}
+
+.multibox .titles .back-bar{
+    background-color: #2cb9b4;
+}
+.staff-box .position span{
+    border-top:1px solid #2cb9b4;
+    border-bottom:1px solid #2cb9b4;    
+}
+/*.overlay{
+    background-color: #2cb9b4;
+}*/
+#filtercats li.active{
+    background-color: #2cb9b4;
+}
+.blog-meta-2 .type{
+   background-color: #2cb9b4 !important;
+}
+.btn:hover,.btn-large:hover,.btn-mini:hover{
+    background: #2cb9b4;
+}
+.btn.btn-color{
+    background:#2cb9b4;
+}
+a.button:hover{
+    background-color: #2cb9b4;
+}
+.nav-tabs{
+    border-bottom: 2px solid #2cb9b4;
+}
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover {
+     background:#2cb9b4;
+     border-top:2px solid #2cb9b4;
+}
+.pagination ul > .active > a, .pagination ul > .active > span {
+    background:#2cb9b4; 
+}
+.accordion-heading:hover{
+    background:#2cb9b4;
+}
+.progress .bar {
+    background-color: #2cb9b4;
+}
+.progress-striped .bar {
+    background-color:  #2cb9b4;
+}
+::selection{
+    background: #2cb9b4;
+}
+.drop-cap.color{
+    background: #2cb9b4;
+}
+blockquote.color{
+    border-left: 5px solid #2cb9b4;
+}
+blockquote.pull-right.color{
+    border-right: 5px solid #2cb9b4;
+}
+.color-icons i{
+    color:#2cb9b4;
+}
+.highlight{
+    background-color: #2cb9b4;
+}
+input[type="submit"]:hover{
+      background-color: #2cb9b4;  
+}

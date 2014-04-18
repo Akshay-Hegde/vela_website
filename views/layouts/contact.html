@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        {{ theme:partial name='metadata' }}
+
+    </head>
+
+    <body>
+        {{ if theme:options:style == 'boxed' }}
+              <div class="main-box">          
+        {{endif}}
+        {{ if theme:options:style == 'full' }}
+            <!--   HEADER  --> 
+            {{ theme:partial name="header" }}
+            <!--   /HEADER  -->         
+        {{endif}}
+
+        <!--  MAIN SECTION -->
+        <section id="wrap">
+            
+            {{ if theme:options:style == 'boxed' }}
+                <!--   HEADER  --> 
+                {{ theme:partial name="header" }}
+                <!--   /HEADER  -->         
+            {{endif}}
+            
+            <div id="main-container" class="container {{ if theme:options:style == 'boxed' }}box-pad{{endif}}">
+                <!-- slider -->
+                {{ if { url:segments segment="1" } == '' OR  { url:segments segment="1" } == 'home' }}
+                        {{ widgets:area slug="slider" }}
+                {{ endif }}
+                <!-- /slider -->
+                
+                    {{ theme:partial name="breadcrumbs" }}
+                    {{ session:messages success="alert alert-success" notice="alert" error="alert alert-error" }}
+                    {{ widgets:area slug="top-main" }}
+
+                        {{ template:body }}
+
+
+                
+            </div>
+        </section> 
+        <!-- / MAIN SECTION -->
+        
+        {{ theme:partial name="footer" }}
+        
+        {{ if theme:options:style == 'boxed' }}
+        </div>          
+        {{endif}}
+    </body>
+</html>

@@ -1,0 +1,18 @@
+{{ if { url:segments segment="1" } != '' AND  { url:segments segment="1" } != 'home' }}  
+    {{ if template:has_breadcrumbs }}
+       {{ if theme:options:show_breadcrumbs == 'yes' }}
+            <ul class="breadcrumb"> 
+                <li><span>You are here:</span></li>
+            {{ template:breadcrumbs }}
+                <li>
+                {{ if uri }}
+                        {{ url:anchor segments=uri title=name }}<span class="divider">></span> 
+                {{ else }}
+                        <span class="active">{{ name }}</span>
+                {{ endif }}
+                </li>
+            {{ /template:breadcrumbs }}
+            </ul>
+        {{ endif }}
+    {{ endif }}
+{{ endif }}

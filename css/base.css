@@ -1,0 +1,9 @@
+
+@import url(fontfaces.css);                 /*Font faces*/
+@import url(bootstrap.css);                 /*Bootstrap base CSS*/
+@import url(bootstrap-responsive.css);      /*Bootstrap responsive CSS*/
+@import url(prettyPhoto.css);               /*Pretty photo style*/
+@import url(camera.css);                    /*Camera slider*/
+@import url(font-awesome.min.css);          /*Font awesome icon pack*/
+@import url(style.css);                     /*Main CSS file */
+@import url(styled-elements.css);           /*Styled elements*/

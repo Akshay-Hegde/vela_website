@@ -1,0 +1,18 @@
+
+.blog-hover .overlay{
+   display:none !important;
+}
+.blog-hover .details{
+   display:none !important;
+}
+.blog-hover .date{
+    top:0 !important;
+}
+.blog-hover .zoomable{
+    transform: none !important;
+    -ms-transform:none !important;
+}
+input[id="newsletter"]{
+    height:41px !important;
+    background:#2F2F2F !important;
+}
