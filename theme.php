@@ -18,6 +18,7 @@ class Theme_Vela extends Theme {
             'is_required'   => TRUE
         ),
         
+        
         'layout' => array(
             'title'         => 'Layout',
             'description'   => 'Which type of layout shall we use?',
